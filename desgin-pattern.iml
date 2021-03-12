@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/from katyusco/Padrão Adapter por Herança Múltipla/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/my src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/my src/Padrão Adapter por Herança Múltipla" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/my src/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ServicoTomada3Pinos" level="application" />
+  </component>
+</module>
