@@ -1,3 +1,4 @@
+package Composite;
 /**
 O exemplo a seguir, escrito em Java, implementa uma classe gráfica, 
 na qual, pode ser uma elipse ou um círculo ou uma composição de diversas outras formas 
