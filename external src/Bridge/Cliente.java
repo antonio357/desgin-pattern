@@ -11,7 +11,16 @@ public class Cliente {
         janela = new JanelaDialogo(new JanelaWindows());
         janela.desenhar();
 
+        // testando JanelaDowcload
         janela = new JanelaDowcload(new JanelaWindows());
+        janela.desenhar();
+
+        // testando JanelaAndroid
+        janela = new JanelaAviso(new JanelaAndroid());
+        janela.desenhar();
+        janela = new JanelaDialogo(new JanelaAndroid());
+        janela.desenhar();
+        janela = new JanelaDowcload(new JanelaAndroid());
         janela.desenhar();
     }
 }
