@@ -10,5 +10,8 @@ public class Cliente {
 
         janela = new JanelaDialogo(new JanelaWindows());
         janela.desenhar();
+
+        janela = new JanelaDowcload(new JanelaWindows());
+        janela.desenhar();
     }
 }
