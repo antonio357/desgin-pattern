@@ -9,8 +9,11 @@ public class ConcreteGroup extends ObservableGroup {
         return this.messages;
     }
     public void addMessage (Message message) {
-        messages.add(message);
-        notifyUsers();
+        if (userExists(message.getAuthor())) {
+            messages.add(message);
+            notifyUsers();
+        }
+        else System.out.println("message post fail, usuário " + message.getAuthor() + " não está cadastrado no grupo");
     }
     public void listUsers () {
         System.out.println("Usuários cadastrados no grupo");

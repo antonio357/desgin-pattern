@@ -9,14 +9,26 @@ public class ObservableGroup {
         users.add(user);
     }
     public void delUser (String userEmail) {
-        for (ObserverUser observerUser : this.users) {
+        for (ObserverUser observerUser : users) {
             ConcreteObserver concreteUser = (ConcreteObserver) observerUser;
-            if (userEmail == concreteUser.getEmail()) users.remove(observerUser);
+            if (userEmail == concreteUser.getEmail()) {
+                System.out.println("usuário " + concreteUser.getEmail() + " removido");
+                users.remove(observerUser);
+                return;
+            }
         }
+        System.out.println("remove user fail, usuário " + userEmail + " não estava cadastrado no grupo");
     }
     protected void notifyUsers () {
         for (ObserverUser observerUser : users) {
             observerUser.updateGroupData();
         }
+    }
+    protected boolean userExists (String email) {
+        for (ObserverUser observerUser : users) {
+            ConcreteObserver concreteUser = (ConcreteObserver) observerUser;
+            if (email == concreteUser.getEmail()) return true;
+        }
+        return false;
     }
 }
