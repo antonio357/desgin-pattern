@@ -2,12 +2,12 @@ package Observer;
 
 import java.util.ArrayList;
 
-public class String implements ObserverUser {
-    private java.lang.String email;
+public class ConcreteObserver implements ObserverUser {
+    private String email;
     private ConcreteGroup concreteGroup;
     private ArrayList<Message> groupMessages;
 
-    String(java.lang.String email, ConcreteGroup concreteGroup) {
+    ConcreteObserver(String email, ConcreteGroup concreteGroup) {
         this.email = email;
         this.concreteGroup = concreteGroup;
     }
@@ -15,7 +15,7 @@ public class String implements ObserverUser {
     public void updateGroupData() {
         this.groupMessages = this.concreteGroup.getMessages();
     }
-    public java.lang.String getEmail() {
+    public String getEmail() {
         return email;
     }
 }

@@ -1,8 +1,7 @@
 package Observer;
 
 public class Message {
-    private String author;
-    private String textContent;
+    private String author, textContent;
 
     Message (String author, String textContent) {
         this.author = author;

@@ -5,10 +5,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(ConcreteObserver[] args) {
         Scanner read = new Scanner(System.in);
-        java.lang.String input, email, messageTextContent;
+        String input, email, messageTextContent;
         Pattern pattern; Matcher matcher;
+
+        ConcreteGroup group = new ConcreteGroup();
 
         while (true) {
             input = read.nextLine();
@@ -26,8 +28,8 @@ public class Main {
                 continue;
             }
 
-            if (input.contains("add")) {}
-            else if (input.contains("del")) {}
+            if (input.contains("add")) group.addUser(new ConcreteObserver(email, group));
+            else if (input.contains("del")) group.delUser(email);
             else {
                 // getting messageTextContent
                 pattern = Pattern.compile("\".*\"");
@@ -41,8 +43,8 @@ public class Main {
                     messageTextContent = stringBuilder.toString();
                     System.out.println(messageTextContent);
 
-                    // posting
-                    Message message = new Message(email, messageTextContent);
+                    // posting message
+                    group.addMessage(new Message(email, messageTextContent));
                 }
                 else {
                     System.out.println("missing messageTextContent, try again");
