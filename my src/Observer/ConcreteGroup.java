@@ -5,6 +5,9 @@ import java.util.ArrayList;
 public class ConcreteGroup extends ObservableGroup {
     private ArrayList<Message> messages;
 
+    ConcreteGroup () {
+        messages = new ArrayList<Message>();
+    }
     public ArrayList<Message> getMessages() {
         return this.messages;
     }

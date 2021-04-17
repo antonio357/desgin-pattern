@@ -14,12 +14,15 @@ public class ConcreteObserver implements ObserverUser {
     @Override
     public void updateGroupData() {
         this.groupMessages = this.concreteGroup.getMessages();
+        showNewMessageReceived();
     }
     public String getEmail() {
         return email;
     }
     private void showNewMessageReceived () {
         Message message = groupMessages.get(groupMessages.size() - 1);
-        System.out.println(email + ", recebeu a menssagem");
+        if (message.getAuthor().equals(email)) System.out.println(email + " enviou a mensagem");
+        else System.out.println(email + ", recebeu uma menssagem");
+        message.print();
     }
 }

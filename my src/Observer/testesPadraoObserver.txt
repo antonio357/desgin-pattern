@@ -1,0 +1,24 @@
+// entrada testando adicionar
+postagem add antonio@academico.ifpb.edu.br
+postagem add carlos@academico.ifpb.edu.br
+postagem add emanuel@academico.ifpb.edu.br
+postagem add emanuel@academico.ifpb.edu.br
+
+// testando remover
+postagem add antonio@academico.ifpb.edu.br
+postagem add carlos@academico.ifpb.edu.br
+postagem add emanuel@academico.ifpb.edu.br
+postagem del antonio@academico.ifpb.edu.br
+postagem del carlos@academico.ifpb.edu.br
+postagem del emanuel@academico.ifpb.edu.br
+postagem del emanuel@academico.ifpb.edu.br
+
+// testando post de mensagem
+postagem add antonio@academico.ifpb.edu.br
+postagem add carlos@academico.ifpb.edu.br
+postagem add emanuel@academico.ifpb.edu.br
+postagem antonio@academico.ifpb.edu.br "mensagem 1"
+postagem carlos@academico.ifpb.edu.br "mensagem 2"
+postagem emanuel@academico.ifpb.edu.br "mensagem 3"
+postagem del emanuel@academico.ifpb.edu.br
+postagem emanuel@academico.ifpb.edu.br "mensagem 4"

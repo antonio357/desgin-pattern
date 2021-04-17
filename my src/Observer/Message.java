@@ -14,7 +14,7 @@ public class Message {
         return author;
     }
     public void print () {
-        System.out.println("autor = " + author);
-        System.out.println("mensagem\n" + textContent);
+        System.out.println(author);
+        System.out.println(textContent);
     }
 }

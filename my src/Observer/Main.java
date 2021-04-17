@@ -21,7 +21,7 @@ public class Main {
             if (matcher.find()) {
                 email = matcher.group(0);
                 email = email.strip();
-                System.out.println(email);
+                //System.out.println(email);
             }
             else {
                 System.out.println("missing email, try again");
@@ -47,7 +47,7 @@ public class Main {
                     stringBuilder.deleteCharAt(messageTextContent.length() - 1);
                     stringBuilder.deleteCharAt(0);
                     messageTextContent = stringBuilder.toString();
-                    System.out.println(messageTextContent);
+                    //System.out.println(messageTextContent);
 
                     // posting message
                     group.addMessage(new Message(email, messageTextContent));
