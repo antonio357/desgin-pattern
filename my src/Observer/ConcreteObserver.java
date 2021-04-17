@@ -21,8 +21,8 @@ public class ConcreteObserver implements ObserverUser {
     }
     private void showNewMessageReceived () {
         Message message = groupMessages.get(groupMessages.size() - 1);
-        if (message.getAuthor().equals(email)) System.out.println(email + " enviou a mensagem");
-        else System.out.println(email + ", recebeu uma menssagem");
+        if (message.getAuthor().equals(email)) System.out.println(email + " enviou a mensagem para o grupo");
+        else System.out.println(email + ", recebeu uma menssagem do grupo");
         message.print();
     }
 }

@@ -14,6 +14,7 @@ public class Main {
 
         while (true) {
             input = read.nextLine();
+            if (input.contains("terminate")) break;
 
             // getting email
             pattern = Pattern.compile("\\s*\\S+@\\S+\\s*");

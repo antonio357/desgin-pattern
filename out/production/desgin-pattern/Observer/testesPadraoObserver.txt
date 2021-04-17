@@ -22,5 +22,3 @@ postagem carlos@academico.ifpb.edu.br "mensagem 2"
 postagem emanuel@academico.ifpb.edu.br "mensagem 3"
 postagem del emanuel@academico.ifpb.edu.br
 postagem emanuel@academico.ifpb.edu.br "mensagem 4"
-
-terminate
