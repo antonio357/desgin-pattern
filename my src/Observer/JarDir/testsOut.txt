@@ -1,0 +1,50 @@
+Usuários cadastrados no grupo
+antonio@academico.ifpb.edu.br
+Usuários cadastrados no grupo
+antonio@academico.ifpb.edu.br
+carlos@academico.ifpb.edu.br
+Usuários cadastrados no grupo
+antonio@academico.ifpb.edu.br
+carlos@academico.ifpb.edu.br
+emanuel@academico.ifpb.edu.br
+add user fail, usuário emanuel@academico.ifpb.edu.br já está cadastrado no grupo
+Usuários cadastrados no grupo
+antonio@academico.ifpb.edu.br
+carlos@academico.ifpb.edu.br
+emanuel@academico.ifpb.edu.br
+antonio@academico.ifpb.edu.br enviou a mensagem para o grupo
+antonio@academico.ifpb.edu.br
+mensagem 1
+carlos@academico.ifpb.edu.br, recebeu uma menssagem pelo grupo
+antonio@academico.ifpb.edu.br
+mensagem 1
+emanuel@academico.ifpb.edu.br, recebeu uma menssagem pelo grupo
+antonio@academico.ifpb.edu.br
+mensagem 1
+antonio@academico.ifpb.edu.br, recebeu uma menssagem pelo grupo
+carlos@academico.ifpb.edu.br
+mensagem 2
+carlos@academico.ifpb.edu.br enviou a mensagem para o grupo
+carlos@academico.ifpb.edu.br
+mensagem 2
+emanuel@academico.ifpb.edu.br, recebeu uma menssagem pelo grupo
+carlos@academico.ifpb.edu.br
+mensagem 2
+antonio@academico.ifpb.edu.br, recebeu uma menssagem pelo grupo
+emanuel@academico.ifpb.edu.br
+mensagem 3
+carlos@academico.ifpb.edu.br, recebeu uma menssagem pelo grupo
+emanuel@academico.ifpb.edu.br
+mensagem 3
+emanuel@academico.ifpb.edu.br enviou a mensagem para o grupo
+emanuel@academico.ifpb.edu.br
+mensagem 3
+Usuários cadastrados no grupo
+antonio@academico.ifpb.edu.br
+carlos@academico.ifpb.edu.br
+message post fail, usuário emanuel@academico.ifpb.edu.br não está cadastrado no grupo
+Usuários cadastrados no grupo
+carlos@academico.ifpb.edu.br
+Usuários cadastrados no grupo
+remove user fail, usuário antonio@academico.ifpb.edu.br não está cadastrado no grupo
+Usuários cadastrados no grupo
