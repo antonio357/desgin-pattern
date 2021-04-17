@@ -18,4 +18,8 @@ public class ConcreteObserver implements ObserverUser {
     public String getEmail() {
         return email;
     }
+    private void showNewMessageReceived () {
+        Message message = groupMessages.get(groupMessages.size() - 1);
+        System.out.println(email + ", recebeu a menssagem");
+    }
 }

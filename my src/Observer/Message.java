@@ -13,4 +13,8 @@ public class Message {
     public String getAuthor() {
         return author;
     }
+    public void print () {
+        System.out.println("autor = " + author);
+        System.out.println("mensagem\n" + textContent);
+    }
 }

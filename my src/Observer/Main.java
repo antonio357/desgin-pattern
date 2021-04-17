@@ -28,8 +28,14 @@ public class Main {
                 continue;
             }
 
-            if (input.contains("add")) group.addUser(new ConcreteObserver(email, group));
-            else if (input.contains("del")) group.delUser(email);
+            if (input.contains("add")) {
+                group.addUser(new ConcreteObserver(email, group));
+                group.listUsers();
+            }
+            else if (input.contains("del")) {
+                group.delUser(email);
+                group.listUsers();
+            }
             else {
                 // getting messageTextContent
                 pattern = Pattern.compile("\".*\"");
