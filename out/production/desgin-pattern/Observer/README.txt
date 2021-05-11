@@ -1,10 +1,10 @@
 Executando Aplicação
-baixar o arquivo .jar, salvando em qualquer diretorio
+baixar o arquivo SistemaPostagemObserver.jar, salvando em qualquer diretorio
 abrir terminal neste mesmo diretório
-no terminal executar "java -jar .jar", sem as aspas
+no terminal executar "java -jar SistemaPostagemObserver.jar", sem as aspas
 
 Utilizando Aplicação
-email: tem que ter o @ juntamente de ao menos um caracter qualquer em cada lado
+email: tem que ter o @ juntamente de ao menos um caracter qualquer a sua esquerda e a sua direita
 mensagem: é tudo que for digitado entre "", é considerado desde a primeira " até a última ", sempre aspas duplas
 
 Comando add
@@ -17,7 +17,7 @@ exemplo: postagem del aluno.x@academico.ifpb.edu.br
 
 Comando mensagem
 formato: postagem email mensagem
-exemplo: postagem aluno.x@academico.ifpb.edu.br "aqui pode ter qualquer coisa"
+exemplo: postagem aluno.x@academico.ifpb.edu.br "aqui pode ter qualquer coisa digitada"
 
 Comando encerrar
 formato: terminate
